@@ -21,3 +21,45 @@
 .ex-5-square:active{
   scale: 50%;
 }
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+  filter: grayscale(1) blur(5px);
+}
+
+.ex-8-img:hover{
+  filter: grayscale(1) blur(5px);
+  border-radius: 20%;
+}
+
+.ex-9-img:hover{
+  filter: grayscale(1) blur(5px);
+  border-radius: 20%;
+  scale: 150%;
+}
+
+/* Usare animation|nome durata conteggio-interazioni tempo |
+e usare delle @keyframes per avviare l'animazione*/
+.ex-10-icon {
+  animation: -rotation 4s linear infinite;
+}
+
+@keyframes -rotation {
+   0%{transform: rotate(-1turn);
+}
+}
+.ex-11-icon:hover{
+  animation: -rotations 4s  linear infinite;
+  
+}
+
+@keyframes -rotations {
+  45%{
+    transform: rotate(270deg);
+  }
+
+  0%{transition: 1s;}
+}

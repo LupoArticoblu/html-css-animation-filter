@@ -30,11 +30,18 @@
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
   width: 500px;
+  
 }
-
+.ex-7-img{
+  transition: 1s;
+}
+.ex-8-img{
+  transition: 1s;
+}
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
+  transition: 1s;
 }
 .ex-10-icon {
   font-size: 60px;
