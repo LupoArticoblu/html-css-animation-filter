@@ -62,3 +62,81 @@ e usare delle @keyframes per avviare l'animazione*/
   }
 
 }
+
+.ex-12-button:hover .ex-12-top-white{
+  animation: rot 1s linear 2;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: roll 1s linear 2;
+}
+
+@keyframes rot{
+  50%{
+    top: -10px;
+    left: 60%;
+  }
+}
+
+@keyframes roll{
+  50%{
+    bottom: -10px;
+    right: 60%;
+  }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+  animation: rot2 2s linear 2;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+  animation: roll2 2s linear 2;
+}
+
+@keyframes rot2{
+  0%{
+    top: -10px;
+    left: 10%;
+  }
+  25%{
+    top: -10px;
+    left: 90%;
+  }
+  50%{
+    top: 100%;
+    left: 90%;
+  }
+  75%{
+    top: 100%;
+    left: -10%;
+  }
+  90%{
+    top: -10px;
+    left: -10%; 
+  }
+
+}
+
+@keyframes roll2{
+  0%{
+    bottom: -10px;
+    right: 20%;
+  }
+  25%{
+    bottom: -10px;
+    right: 80%;
+  }
+  50%{
+    bottom: 100%;
+    right: 80%;
+  }
+  75%{
+    bottom: 100%;
+    right: -20%;
+  }
+  90%{
+    bottom: -10px;
+    right: -20%;
+  }
+  
+}
